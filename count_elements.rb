@@ -4,7 +4,6 @@ def count_elements(array)
   hash = Hash.new(0)
   binding.pry
   array.each {|word| hash[word] += 1}
-  binding.pry
   hash
 end
  
